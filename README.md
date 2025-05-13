@@ -31,7 +31,7 @@ If you don't already have a Firefly API or Firefly Services Client ID and Client
       * (7:4) - width 1344px, height 756px
       * (9:7) - width 1152px, height 896px
       * (7:9) - width 896px, height 1152px
-* Supported sizes for the output images with image4 are:
+   * Supported sizes for the output images with image4 are:
       * (1:1) - width 2048px, height 2048px
       * (4:3) - width 2304px, height 1792px
       * (3:4) - width 1792px, height 2304px
