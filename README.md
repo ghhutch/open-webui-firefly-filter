@@ -4,8 +4,8 @@ The Open WebUI Adobe Firefly Filter provides open web-ui admins to setup a filte
 DISCLAIMER: At the time of writing this the code, it is still a prototype and has not been throuroughly tested.  This was built for exploratory purposes as a means to test Open WebUI's functionality and various ways to generate images.
 
 Conceptual Use Case:
-1. Use chat interface with an LLM to optimize a prompt. e.g. Play the role of a creative director and enhance my prompt: A dog and pony show
-2. Once you have an optimized prompt, use the filter to genearate an image. e.g. /firefly A dog and pony at a circus doing acrobatics with a spotlight on the pony with colorful and moody lighting of various sizes in the background.
+1. Use chat interface with an LLM of the users choice to optimize a prompt. e.g. Play the role of a creative director and enhance my prompt: A dog and pony show
+2. Once the prompt is optimized, use the filter to generate an image. e.g. /firefly A dog and pony at a circus doing acrobatics with a spotlight on the pony with colorful and moody lighting of various sizes in the background.
 3. Further refine the prompt and generations.
 
 ## Pre-requisites
