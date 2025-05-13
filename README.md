@@ -1,11 +1,16 @@
 # Open WebUI Adobe Firefly Filter
 The Open WebUI Adobe Firefly Filter providse open web-ui admins to setup a filter that calls the Adobe [Firefly Services Generate Image V3 Asynchronous API endpoint](https://developer.adobe.com/firefly-services/docs/firefly-api/guides/api/image_generation/V3_Async/).
 
-At the time of writing this the code is still a prototype and has not been throuroughly tested.
+DISCLAIMER: At the time of writing this the code, it is still a prototype and has not been throuroughly tested.  This was built for exploratory purposes as a means to test Open WebUI's functionality and various ways to generate images.
+
+Conceptual Use Case:
+1. Use chat interface with an LLM to optimize a prompt. e.g. Play the role of a creative director and enhance my prompt: A dog and pony show
+2. Once you have an optimized prompt, use the filter to genearate an image. e.g. /firefly A dog and pony at a circus doing acrobatics with a spotlight on the pony with colorful and moody lighting of various sizes in the background.
+3. Further refine the prompt and generations.
+
 
 ## Pre-requisites
-*Get Credentials*
-If you don't already have a Firefly API or Firefly Services Client ID and Client Secret, retrieve them from your [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-s2s/#api-overview) project before reading further. Securely store these credentials and never expose them in client-side or public code.
+Get Credentials - If you don't already have a Firefly Services Client ID and Client Secret, retrieve them from your [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-s2s/#api-overview) project before reading further.  You may have to contact your Adobe Admin to get privileges to the Developer Console or for the Admin to go to the console and give you the keys. Securely store these credentials and never expose them in client-side or public code.
 
 ## Setup
 *Create Function*
