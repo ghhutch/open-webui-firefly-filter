@@ -20,23 +20,23 @@ If you don't already have a Firefly API or Firefly Services Client ID and Client
 2. Enter the client_id
 3. Enter the client_secret
 4. Optionally change the default size
-Supported sizes for the output images with image3 are:
-Square (1:1) - width 2048px, height 2048px
-Square (1:1) - width 1024px, height 1024px
-Landscape (4:3) - width 2304px, height 1792px
-Portrait (3:4) - width 1792px, height 2304px
-Widescreen (16:9) - width 2688px, height 1536px
-Widescreen (16:9) - width 2688px, height 1512px
-(7:4) - width 1344px, height 768px
-(7:4) - width 1344px, height 756px
-(9:7) - width 1152px, height 896px
-(7:9) - width 896px, height 1152px
-Supported sizes for the output images with image4 are:
-(1:1) - width 2048px, height 2048px
-(4:3) - width 2304px, height 1792px
-(3:4) - width 1792px, height 2304px
-(16:9) - width 2688px, height 1536px
-(9:16) - width 1440px, height 2560px
+   * Supported sizes for the output images with image3 are:
+      * Square (1:1) - width 2048px, height 2048px
+      * Square (1:1) - width 1024px, height 1024px
+      * Landscape (4:3) - width 2304px, height 1792px
+      * Portrait (3:4) - width 1792px, height 2304px
+      * Widescreen (16:9) - width 2688px, height 1536px
+      * Widescreen (16:9) - width 2688px, height 1512px
+      * (7:4) - width 1344px, height 768px
+      * (7:4) - width 1344px, height 756px
+      * (9:7) - width 1152px, height 896px
+      * (7:9) - width 896px, height 1152px
+* Supported sizes for the output images with image4 are:
+      * (1:1) - width 2048px, height 2048px
+      * (4:3) - width 2304px, height 1792px
+      * (3:4) - width 1792px, height 2304px
+      * (16:9) - width 2688px, height 1536px
+      * (9:16) - width 1440px, height 2560px
 6. Optionally change the default content class (photo, art)
 7. Optionally change the model (image3, image3_custom, image4_standard, image4_ultra)
 8. Save
