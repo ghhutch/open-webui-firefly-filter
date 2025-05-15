@@ -2,17 +2,11 @@
 title: Adobe Firefly Integration
 author: Graham Hutchinson
 author_url: https://github.com/ghhutch
-version: 0.1
+version: 0.2
 """
 
-import os
 import time
-import base64
-import uuid
 import requests
-from io import BytesIO
-from pathlib import Path
-from PIL import Image
 import logging
 from pydantic import BaseModel, Field
 from typing import Optional, Dict, Any, List
@@ -22,13 +16,6 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger("firefly_integration")
-
-# Directory for storing generated images
-IMAGES_DIR = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "generated_images"
-)
-os.makedirs(IMAGES_DIR, exist_ok=True)
-
 
 class Filter:
 
